@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.B.S. MEMORIAL INTER COLLEGE</title>
+    <style>
+        /* Global Styles */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa; color: #333; }
+        
+        /* Top Header (Blue Theme) */
+        header { background-color: #0d47a1; color: #fff; padding: 25px 15px; text-align: center; border-bottom: 5px solid #d32f2f; }
+        header h1 { margin: 0; font-size: 2.2em; text-transform: uppercase; letter-spacing: 1px; }
+        header p { margin: 5px 0 0 0; font-size: 1.1em; color: #e3f2fd; }
+        
+        /* Navigation Bar (Green Theme) */
+        nav { background-color: #2e7d32; padding: 12px; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+        nav a { color: #fff; text-decoration: none; margin: 0 15px; font-weight: bold; font-size: 1em; transition: color 0.3s; }
+        nav a:hover { color: #ffeb3b; }
+        
+        /* Hero Banner (Red Theme Highlight) */
+        .hero { background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%); color: white; padding: 50px 20px; text-align: center; }
+        .hero h2 { margin: 0; font-size: 2em; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
+        .hero p { font-size: 1.2em; margin: 10px 0 20px 0; }
+        .btn-admission { display: inline-block; background-color: #2e7d32; color: white; padding: 12px 30px; text-decoration: none; border-radius: 25px; font-weight: bold; font-size: 1.1em; box-shadow: 0 4px 6px rgba(0,0,0,0.2); }
+        
+        /* Main Content Container */
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 15px; }
+        .section { padding: 30px; margin-bottom: 25px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); border-left: 6px solid #0d47a1; }
+        .section h3 { color: #0d47a1; margin-top: 0; font-size: 1.6em; border-bottom: 2px solid #eee; padding-bottom: 8px; }
+        
+        /* Principal Section Flexbox */
+        .principal-box { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; }
+        .principal-img { width: 120px; height: 150px; background-color: #ddd; display: flex; align-items: center; text-align: center; justify-content: center; font-size: 0.9em; border-radius: 5px; border: 2px solid #0d47a1; }
+        .principal-text { flex: 1; min-width: 250px; line-height: 1.6; }
+
+        /* Photo Gallery Grid */
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px; }
+        .gallery-item { background-color: #eee; height: 150px; border-radius: 5px; display: flex; align-items: center; justify-content: center; color: #666; font-weight: bold; border: 1px solid #ccc; text-align: center; padding: 5px; }
+        
+        /* Course List styling with Green Bullets */
+        .course-list { list-style: none; padding: 0; }
+        .course-list li { padding: 10px 0; border-bottom: 1px solid #eee; font-size: 1.1em; display: flex; align-items: center; }
+        .course-list li::before { content: "✔"; color: #2e7d32; font-weight: bold; margin-right: 15px; }
+        
+        /* Contact Details Style */
+        .contact-info p { font-size: 1.1em; line-height: 1.6; margin: 10px 0; }
+        .contact-info strong { color: #d32f2f; }
+        
+        /* Footer (Blue Theme) */
+        footer { background-color: #0d47a1; color: white; text-align: center; padding: 20px; margin-top: 50px; border-top: 4px solid #2e7d32; }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>S.B.S. Memorial Inter College</h1>
+        <p>Ghasipura, Muzaffarnagar, Uttar Pradesh</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#principal">Principal Message</a>
+        <a href="#courses">Courses</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Hero / Admission Alert Section -->
+    <div class="hero">
+        <h2>Admission Open for Session 2026 - 2027</h2>
+        <p>Apne bachhon ke sunahre aur ujjwal bhavishya ke liye aaj hi sampark karein.</p>
+        <a href="#contact" class="btn-admission">Enquiry Now</a>
+    </div>
+
+    <!-- Main Sections -->
+    <div class="container">
+        
+        <!-- About Section -->
+        <div id="about" class="section">
+            <h3>🏫 About Our College</h3>
+            <p>S.B.S. Memorial Inter College, Ghasipura (Muzaffarnagar) ek pratishthit shikshan sansthan hai. Hamara uddeshya vidyarthiyon ko uchha stariya shiksha ke saath-saath moral values (sanskar) pradaan karna hai, taaki ve desh ke zimmedar nagrik ban sakein.</p>
+        </div>
+
+        <!-- Principal Message Section -->
+        <div id="principal" class="section" style="border-left-color: #2e7d32;">
+            <h3>👨‍🏫 Principal's Message</h3>
+            <div class="principal-box">
+                <div class="principal-img">
+                    [Principal Photo]
+                </div>
+                <div class="principal-text">
+                    <p><em>"Priy vidyarthiyon aur abhibhavak gan, hamara lakshya keval kitaabi gyan dena nahi, balki bachhon ke chharitra aur pratibha ko nikharna hai. Hamara college har vidyarthi ko aage badhne ke samaan avsar pradaan karta hai."</em></p>
+                    <strong>- Principal, S.B.S. Memorial Inter College</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- Courses Section -->
+        <div id="courses" class="section" style="border-left-color: #d32f2f;">
+            <h3>📚 Available Courses & Classes</h3>
+            <ul class="course-list">
+                <li><strong>Junior Classes:</strong> Class 6th to 8th (All Compulsory Subjects)</li>
+                <li><strong>High School (Class 9th & 10th):</strong> UP Board Curriculum</li>
+                <li><strong>Intermediate (Class 11th & 12th):</strong> Science Stream (PCM / PCB)</li>
+                <li><strong>Intermediate (Class 11th & 12th):</strong> Arts / Humanities Stream</li>
+            </ul>
+        </div>
+
+        <!-- Photo Gallery Section -->
+        <div id="gallery" class="section">
+            <h3>🖼️ School Photo Gallery</h3>
+            <p>Hamare college campus aur activities ki jhalak:</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">[ College Building Photo ]</div>
+                <div class="gallery-item">[ Science Lab Photo ]</div>
+                <div class="gallery-item">[ Sports Day Photo ]</div>
+                <div class="gallery-item">[ Smart Classroom Photo ]</div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact" class="section" style="border-left-color: #2e7d32;">
+            <h3>📞 Contact & Address Details</h3>
+            <div class="contact-info">
+                <p><strong>📍 Address:</strong> Ghasipura, Near National Highway, District Muzaffarnagar, Uttar Pradesh - 251301</p>
+                <p><strong>📞 Phone Number:</strong> <a href="tel:7830458868" style="color: #333; text-decoration: none;">+91 7830458868</a></p>
+                <p><strong>✉️ Email Address:</strong> <a href="mailto:SBSM123EDU@GMAIL.COM" style="color: #333; text-decoration: none;">SBSM123EDU@GMAIL.COM</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 S.B.S. Memorial Inter College. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
